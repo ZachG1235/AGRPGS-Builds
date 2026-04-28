@@ -27,13 +27,13 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/AGRPGS-Builds.data.br",
-        frameworkUrl: "Build/AGRPGS-Builds.framework.js.br",
-        codeUrl: "Build/AGRPGS-Builds.wasm.br",
+        dataUrl: "Build/AGRPGS-Builds.data.unityweb",
+        frameworkUrl: "Build/AGRPGS-Builds.framework.js.unityweb",
+        codeUrl: "Build/AGRPGS-Builds.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "AGRPGS",
-        productVersion: "0.1.1",
+        productVersion: "0.0.2",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       }).then((unityInstance) => {
